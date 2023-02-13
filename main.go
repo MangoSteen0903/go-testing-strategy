@@ -15,7 +15,7 @@ func isPrime(num int) (bool, string) {
 	}
 
 	if num < 0 {
-		result = fmt.Sprintf("%d should not be negative number. please try again.", num)
+		result = fmt.Sprintf("%d : should not be negative number. please try again.", num)
 		return false, result
 	}
 
